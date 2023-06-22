@@ -1,8 +1,9 @@
 
-#name = input("Введите имя пользователя: ")
+'''
+name = input("Введите имя пользователя: ")
 name = "Пользователь"
 
-# print("Добрый день, ", name, ".", sep="")
+print("Добрый день, ", name, ".", sep="")
 print(f"Добрый день, {name}.")
 
 print("Сложно" + "подчинённый")
@@ -59,3 +60,39 @@ gewicht = int(input())
 geld = int(input())
 
 print(int( geld - preis * gewicht ))    
+
+print("-" * 80)
+
+product = input()
+price = int(input())
+weight = int(input())
+money = int(input())
+
+print('Чек')
+print(f"{product} - {weight}кг - {price}руб/кг")
+
+cost = price * weight
+print(f"Итого: {cost}руб")
+print(f"Внесено: {money}руб")
+
+zuruk = int(money - cost)
+
+print(f"Сдача: {zuruk}руб")
+
+
+N = int(input()) 
+
+for x in range(0,N):
+    print("Купи слона!")
+
+
+cnt = int(input())
+msg = input()
+
+for x in range(0, cnt):
+    print(f'Я больше никогда не буду писать "{msg}"!')   
+
+''' 
+nomer = '123'
+
+print(nomer[0])
