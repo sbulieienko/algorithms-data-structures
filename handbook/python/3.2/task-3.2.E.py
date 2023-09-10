@@ -1,18 +1,17 @@
-N = int(input())
-M = int(input())
+N, M = int(input()), int(input())
 
-list1 = list()
-only_one = 0
+un_list = list()
 
 for _ in range(N + M):
-    name = input()
-    if name not in list1:
-        list1.append(name)
-        only_one += 1
+    secondname = input()
+    if secondname in un_list:
+        un_list.remove(secondname)
     else:
-        only_one -= 1
+        un_list.append(secondname)
 
-if only_one == 0:
-    print('Таких нет')
+if len(un_list):
+    for secondname in sorted(un_list):
+        print(secondname)
 else:
-    print(only_one)
+    print('Таких нет')
+
