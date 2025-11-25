@@ -5,7 +5,7 @@ I'am Serhii Bulieienko
 handbook/python/
 
 ### My solutions for [Yandex practicum](https://practicum.yandex.ru/)
-practicum/
+practicum/python/
 
 ### My solutions for the book [The Self-Taught Programmer](https://www.theselftaughtprogrammer.io/)
-self-taugh/
+self-taugh/programmer/
