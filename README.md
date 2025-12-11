@@ -8,4 +8,7 @@ handbook/python/
 practicum/python/
 
 ### My solutions for the book [The Self-Taught Programmer](https://www.theselftaughtprogrammer.io/)
-self-taugh/programmer/
+self-taught/programmer/
+
+### My solutions for the book [The Self-Taught Computer Scientist]
+self-taught/computer-scientist/
